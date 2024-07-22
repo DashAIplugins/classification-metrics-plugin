@@ -1,4 +1,4 @@
-# **Classification Metrics Package**
+# **Classification Metrics Plugin**
 
 ## **Metrics**
 

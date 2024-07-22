@@ -1,10 +1,10 @@
 """DashAI recall classification metric implementation."""
 
 import numpy as np
+from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
 from sklearn.metrics import recall_score
 
-from DashAI.back.dataloaders.classes.dashai_dataset import DashAIDataset
-from DashAI.back.metrics.classification_metric import (
+from dashai_test_classification_metrics_plugin.classification_metric import (
     ClassificationMetric,
     prepare_to_metric,
 )
