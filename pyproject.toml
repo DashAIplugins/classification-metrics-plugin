@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test_classification_metrics_plugin"
-version = "0.0.1"
+version = "0.0.2"
 
 dependencies = []
 
@@ -15,7 +15,7 @@ keywords = [
     "Task",
 ]
 
-description = "Classification Metrics Package for DashAI"
+description = "Classification Metrics Plugin for DashAI"
 readme = "README.md"
 requires-python = ">=3.8"
 
@@ -24,7 +24,6 @@ accuracy = 'dashai_test_classification_metrics_plugin.accuracy:Accuracy'
 f1 = 'dashai_test_classification_metrics_plugin.f1:F1'
 precision = 'dashai_test_classification_metrics_plugin.precision:Precision'
 recall = 'dashai_test_classification_metrics_plugin.recall:Recall'
-classification_metric = 'dashai_test_classification_metrics_plugin.classification_metric:ClassificationMetric'
 
 [project.urls]
 Homepage = "https://github.com/DashAISoftware/DashAI"
