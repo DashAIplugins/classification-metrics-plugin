@@ -1,6 +1,6 @@
 [project]
 name = "dashai_test_classification_metrics_plugin"
-version = "0.0.2"
+version = "0.0.3"
 
 dependencies = []
 
@@ -11,8 +11,7 @@ authors = [
 
 keywords = [
     "DashAI",
-    "Model",
-    "Task",
+    "Metric"
 ]
 
 description = "Classification Metrics Plugin for DashAI"
